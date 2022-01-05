@@ -1,2 +1,4 @@
-# test.blog
-Test Blog
+---
+title: Test Blog
+author: Anh Tra
+---
