@@ -27,8 +27,6 @@ Usage
 ### Parse an arbitrary string
 
 ```php
-<?php
-
 $frontMatter = new \Webuni\FrontMatter\FrontMatter();
 
 $document = $frontMatter->parse($string);
@@ -40,8 +38,6 @@ $content = $document->getContent();
 ### Check if a string has front matter
 
 ```php
-<?php
-
 $frontMatter = new \Webuni\FrontMatter\FrontMatter();
 
 $hasFrontMatter = $frontMatter->exists($string);
